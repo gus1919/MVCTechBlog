@@ -6,23 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Tech Blog</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-<div class="jumbotron">
-  <h1 class="display-4">Tech Blog 3.0</h1>
-  <p class="lead">After all attempts fail, stick to what you know...  </p>
-  <hr class="my-4">
-      <nav>
+<header>
+    <h1>MVC Tech Blog</h1>
+    <p>This is an open forum for all MVC questions and topics.</p>
+</header>
+      <nav class="text-center">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
         <a href="/">Dashboard</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
-       <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+       <a class="btn btn-lg" href="/login" role="button">Login</a>
         {{/if}}
       </nav>
   </div>
