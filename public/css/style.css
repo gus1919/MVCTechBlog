@@ -15,14 +15,20 @@ nav {
 margin-bottom: 12px;
 background-color: #315531;
 align-items: center;
-animation: slide, moveLeft 50%;
-animation-duration: 3s;
 }
 
 .btn {
     margin: 5px;
     background-color: rgb(189, 152, 106);
     font-weight: 900;
+}
+
+.blog {
+  font-family: 'Frijole', cursive;
+}
+
+.blogText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
