@@ -21,18 +21,22 @@
       <nav class="text-center">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
+        <a href="/profile">Profile</a> |
         <a href="/">Dashboard</a> |
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button" id="logout">Logout</button>
         {{else}}
+       <a class="btn btn-lg" href="/" role="button">Home</a>
        <a class="btn btn-lg" href="/login" role="button">Login</a>
         {{/if}}
       </nav>
   </div>
     </header>
     <main class="container container-fluid mt-5">
+      
       <!-- Render the sub layout -->
+     
       {{{ body }}}
+    
     </main>
     <footer>
       
