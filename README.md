@@ -23,10 +23,11 @@ A blog to talk all things tech.
 
   >Signup using the form or log in if previously signed up.  Then give your blog a title and start writing. 
  
-  >Here is a link to the deployed application: 
+  >Here is a link to the deployed application: https://limitless-ridge-06287.herokuapp.com/
   
-  >Here is a link to the github repository: 
+  >Here is a link to the github repository: https://github.com/gus1919/MVCTechBlog
 
+![Screenshot (51)](https://user-images.githubusercontent.com/86876335/139947401-f8e5c117-59c3-4b9c-ad18-bd02701fadfb.png)
 
 
   ---
@@ -56,7 +57,7 @@ A blog to talk all things tech.
 * Heroku
 ---
   ## Issues
-> Login not required to view blogs.  No option to comment on posts or edit posts.  Some issues with password entry, no notification on if the password entered was too long or did not include something.
+> Login not required to view blogs.  No option to comment on posts or edit posts.  Some issues with password entry, no notification on if the password entered was too long or did not include something.  App not working on heroku.
   ---
 
 ## License
